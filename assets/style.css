@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*Seção com imagem de fundo*/
+.main-bg {
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+}
+
+/*Logotipo*/
+.top-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 18px;
+  right: 40%;
+  left: 40%;
+}
+
+.top-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  gap: 10px;
+  top: 10px;
+}
+
+.top-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 18px;
+  border: none;
+  font-weight: bold;
+  width: 90px;
+  height: 40px;
+}
+
+.top-button .button1 {
+  background-color: #eb1700;
+  color: #ffffff;
+}
+
+.top-button .button2 {
+  background-color: white;
+  color: #494949;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.body1-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 578px;
+  gap: 20px;
+}
+
+.body1-card h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+}
+
+.body1-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+  gap: 10px;
+}
+
+.body1-color {
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 32px;
+  box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 2px 8px;
+}
+
+.body1-input {
+  flex-grow: 1.3;
+  height: 20px;
+}
+
+.body1-input .text-input {
+  height: 20px;
+  width: 170px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+.body1-button button {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  color: #ffffff;
+  background-color: #eb1700;
+  border: none;
+  padding: 8px;
+}
+
+.body1-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 32px;
+  height: 35px;
+  box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 2px 8px;
+  font-weight: bold;
+  font-size: 13px;
+  gap: 10px;
+}
+
+.main-white {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.main-gray {
+  background-color: #f4412234;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 170px;
+}
+
+.box-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 100vh;
+}
+
+.box-card h2,
+p,
+span {
+  text-align: center;
+}
+
+.box-card span {
+  color: #eb1700;
+  font-weight: bold;
+}
+
+.box-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img {
+  width: 154px;
+  height: 154px;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 100vh;
+}
+
+.box2-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 15px;
+}
+
+.box2-body h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.box2-body p {
+  text-align: start;
+}
+
+.box2-img {
+  width: 700px;
+  height: 500px;
+}
+
+.box2-button {
+  font-size: 16px;
+  border-radius: 18px;
+  border: none;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  background-color: #eb1700;
+  color: #ffffff;
+}
+
+.main-bg2 {
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.box4 {
+  background-color: rgb(30, 30, 30, 0.7);
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+/*Footer*/
+.main-footer {
+  background-color: rgb(25, 25, 25);
+  height: 70%;
+  color: #ffffff;
+  padding: 50px 100px 10px 100px;
+}
+
+.footer-cab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+  gap: 50px;
+}
+
+.footer-one {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 80px;
+}
+
+.cities {
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+}
+
+.cuisines {
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+
+.footer-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+.footer-three {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.get-to-know, .let-us, .doing {
+  display: grid;
+  grid-template-columns: 180px;
+}
+
+.footer-text {
+  gap: 5px;
+}
+
+.footer-text span {
+  text-align: start;
+  font-size: 11px;
+}
+
+.footer-img {
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  gap: 50px;
+  width: 50%;
+}
